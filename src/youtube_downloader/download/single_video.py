@@ -7,9 +7,14 @@ class Video:
         self.path = path
         self.yt = YouTube(video_url)
         
+    def valid_url(self):
+        assert self.video_url.startswith("https://www.youtube.com/watch?v=")
+        assert self.video_url.find("&list=") == -1
+        
     def download(self):
         """Download single youtube video to the specified directory path.
-        The highest resolution video will only be downloaded.
+        The highest resolution video will only be downloaded. If directory
+        does not exist, then make a new directory.
 
         Args:
             video_url (str): YouTube video url
