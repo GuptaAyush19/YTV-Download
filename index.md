@@ -11,5 +11,6 @@ To execute this program open command terminal and type this command this program
 ```
 python main.pyw
 ```
-Else double-click `main.pyw` in project directory to execute without console. \
+Else double-click `main.pyw` in project directory to execute without console.
+
 The application will create a `YTV-DOWNLOAD\resources` directory containing the required mp4 file.
