@@ -1,0 +1,9 @@
+appdirs==1.4.4
+decorator==4.4.2
+pygubu==0.10.7
+pygubu-designer==0.13
+PyMsgBox==1.0.9
+pytube==10.5.3
+six==1.15.0
+typing-extensions==3.7.4.3
+validators==0.18.2
